@@ -1,8 +1,8 @@
 name: smooth_shadow
-description: A new Flutter package.
-version: 1.0.0
+description: A package that gives your cards or any other widgets a smooth shadow, it also supports adding shadow to text widgets.
+version: 1.0.1
 #author: Abdullah Alamin <abodamin0@gmail.com>
-homepage: https://github.com/abodamin/SmoothShadow.git
+homepage: https://github.com/abodamin/smooth_shadow_package.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"

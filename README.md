@@ -1,15 +1,33 @@
 # smooth_shadow
 
-A new Flutter package.
+A package that gives your cards or any other widgets a smooth shadow, it also supports adding shadow to text widgets.
 
 ## Getting Started
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+#### 1. Install Package
+ ``` Dart
+ smooth_shadow: <latest_version>
+ ``` 
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
-# smooth_shadow_package
+#### 2. Use Package
+
+##### **SmoothCard**
+To add shadows to your Card, Cotainer or any other Widget wrap it with _SmoothCard_
+```
+SmoothCard(
+    child: MyWidget(),
+),
+```
+
+##### **TextShadow**
+To add shadows to your Text() widget, wrap it with _TextShadow_ .
+
+```
+TextShadow(
+    child: Text("Hello world"),
+),
+```
+
+check the example section for more details.
+
+all contributions, or suggestions bug fixes are welcome through [github repo](https://github.com/abodamin/smooth_shadow_package.git).
